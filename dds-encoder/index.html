@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNG to DDS Encoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PNG ⇄ DDS Converter</h1>
+        
+        <div class="mode-selector">
+            <button class="mode-btn active" data-mode="png-to-dds">PNG → DDS</button>
+            <button class="mode-btn" data-mode="dds-to-png">DDS → PNG</button>
+        </div>
+        
+        <div class="upload-area" id="uploadArea">
+            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="17 8 12 3 7 8"></polyline>
+                <line x1="12" y1="3" x2="12" y2="15"></line>
+            </svg>
+            <p id="uploadText">PNG dosyasını sürükleyin veya tıklayın</p>
+            <input type="file" id="fileInput" accept="image/png,.png" hidden>
+        </div>
+
+        <div class="preview-section" id="previewSection" style="display: none;">
+            <h3>Önizleme</h3>
+            <img id="preview" alt="Preview">
+            <div class="info" id="imageInfo"></div>
+        </div>
+
+        <div class="options" id="optionsPngToDds" style="display: none;">
+            <h3>DDS Ayarları</h3>
+            <label>
+                <span>Format:</span>
+                <select id="formatSelect">
+                    <option value="DXT1">DXT1 (BC1)</option>
+                    <option value="DXT3">DXT3 (BC2)</option>
+                    <option value="DXT5" selected>DXT5 (BC3)</option>
+                </select>
+            </label>
+            
+            <label>
+                <input type="checkbox" id="mipmapsCheck" checked>
+                <span>Mipmap Oluştur</span>
+            </label>
+
+            <button id="convertBtn" class="convert-btn">DDS'e Dönüştür</button>
+        </div>
+
+        <div class="options" id="optionsDdsToPng" style="display: none;">
+            <h3>PNG Ayarları</h3>
+            <button id="convertToPngBtn" class="convert-btn">PNG'ye Dönüştür</button>
+        </div>
+
+        <div class="status" id="status"></div>
+
+        <div class="result-section" id="resultSection" style="display: none;">
+            <h3>DDS Önizleme</h3>
+            <canvas id="ddsPreview"></canvas>
+            <div class="info" id="ddsInfo"></div>
+            <button id="downloadBtn" class="convert-btn">DDS Dosyasını İndir</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
