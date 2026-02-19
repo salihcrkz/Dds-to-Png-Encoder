@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🌌 DDS Encoder</h1>
-  <p>Tarayıcı tabanlı, hızlı ve kullanıcı dostu DDS dosya dönüştürücü ve işleme aracı.</p>
+  <p>A browser-based, fast, and user-friendly DDS file converter and processing tool.</p>
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)]()
@@ -10,40 +10,32 @@
 
 ---
 
-## 🚀 Proje Hakkında
+## 🚀 About the Project
 
-**DDS Encoder**, web tarayıcınız üzerinden DirectDraw Surface (DDS) dosyalarınızı işleyebilmeniz için geliştirilmiş modern bir web uygulamasıdır. Sunucu taraflı bir yüklemeye ihtiyaç duymadan, tamamen istemci (client) tarafında çalışarak verilerinizi güvenle ve hızla işler.
+**DDS Encoder** is a modern web application developed to process your DirectDraw Surface (DDS) files directly through your web browser. It processes your data safely and quickly by running entirely on the client side, without the need for server-side uploads.
 
-## ✨ Sistemler ve Özellikler
+## ✨ Systems and Features
 
-Bu proje, aşağıdaki temel sistemleri barındırır:
+This project includes the following core systems:
 
-* **Hızlı ve Yerel İşleme:** Dosyalar sunucuya gönderilmez, tarayıcı belleğinde anlık işlenir.
-* **Modern Kullanıcı Arayüzü (UI):** Temiz, anlaşılır ve göz yormayan tasarım.
-* **Modüler Yapı:** Kolayca geliştirilebilir ve özelleştirilebilir kod mimarisi.
+* **Fast and Local Processing:** Files are not sent to a server; they are processed instantly in the browser's memory.
+* **Modern User Interface (UI):** A clean, intuitive, and easy-on-the-eyes design.
+* **Modular Structure:** An easily developable and customizable code architecture.
 
-## 🎨 Renk ve Tema Paleti
+## 🎨 Color and Theme Palette
 
-Uygulamanın arayüzü, kullanıcı deneyimini artırmak için aşağıdaki modern renk paleti üzerine inşa edilmiştir. (Aşağıdaki renkleri `style.css` dosyanızdaki gerçek HEX kodlarıyla değiştirebilirsiniz).
+The application's interface is built on the following modern color palette to enhance the user experience.
 
-| Renk Türü | Hex Kodu | Önizleme (Örnek) | Açıklama |
+| Color Type | Hex Code | Preview | Description |
 | :--- | :--- | :--- | :--- |
-| **Arka Plan** | `#1A1A2E` | ⬛ | Koyu tema arka plan rengi, göz yorgunluğunu önler. |
-| **İkincil Arka Plan**| `#16213E` | 🟦 | Paneller ve kart tasarımları için kullanılır. |
-| **Vurgu (Accent)** | `#E94560` | 🟥 | Butonlar ve önemli aksiyonlar (Call to Action). |
-| **Metin** | `#EBEBEB` | ⬜ | Birincil okunabilir metin rengi. |
+| **Background** | `#111111` | ⬛ | Dark theme background color, prevents eye strain and provides high contrast. |
+| **Accent** | `#01E08B` | 🟩 | Used for buttons, highlights, and important actions (Call to Action). |
+| **Text** | `#FFFFFF` | ⬜ | Primary readable text color. |
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
-Proje, herhangi bir framework kullanılmadan "Vanilla" web teknolojileri ile geliştirilmiştir:
-* **HTML5:** Yapısal tasarım.
-* **CSS3:** Stil, animasyonlar ve responsive (uyumlu) tasarım.
-* **JavaScript (ES6+):** Dosya işleme mantığı ve dinamik DOM etkileşimleri.
+The project was developed with "Vanilla" web technologies, without using any frameworks:
 
-## 📦 Kurulum ve Kullanım
-
-Projeyi kendi bilgisayarınızda çalıştırmak oldukça basittir. Herhangi bir derleyiciye veya sunucu kurulumuna ihtiyacınız yoktur.
-
-1. Projeyi bilgisayarınıza klonlayın:
-   ```bash
-   git clone [https://github.com/](https://github.com/)<kullanici-adiniz>/dds-encoder.git
+* **HTML5:** Structural design.
+* **CSS3:** Styling, animations, and responsive design.
+* **JavaScript (ES6+):** File processing logic and dynamic DOM interactions.
