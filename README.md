@@ -22,15 +22,12 @@ This project includes the following core systems:
 * **Modern User Interface (UI):** A clean, intuitive, and easy-on-the-eyes design.
 * **Modular Structure:** An easily developable and customizable code architecture.
 
-## 🎨 Color and Theme Palette
+## 🎨 My Palette
 
 The application's interface is built on the following modern color palette to enhance the user experience.
-
-| Color Type | Hex Code | Preview | Description |
-| :--- | :--- | :--- | :--- |
-| **Background** | `#111111` | ⬛ | Dark theme background color, prevents eye strain and provides high contrast. |
-| **Accent** | `#01E08B` | 🟩 | Used for buttons, highlights, and important actions (Call to Action). |
-| **Text** | `#FFFFFF` | ⬜ | Primary readable text color. |
+![Primary](https://img.shields.io/badge/Primary-%2301e08b?style=for-the-badge&logoColor=black)
+![Secondary](https://img.shields.io/badge/Secondary-%232d3436?style=for-the-badge&logoColor=white)
+![Accent](https://img.shields.io/badge/Accent-%23ffffff?style=for-the-badge&logoColor=black)
 
 ## 🛠️ Technologies Used
 
